@@ -1,3 +1,10 @@
+/*
+Problem Description:
+Find the parent-child relationship in a given max-flow graph.
+Solution:
+Do not use algorithm of the max-flow method,just use the bfs method and transfer this problem to a toposort problem
+We can find that in-flow is equal to the out-flow.Just think about the toposoft algorithm before.
+*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
